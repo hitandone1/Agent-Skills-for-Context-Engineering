@@ -4,17 +4,17 @@
 This is a generated view of canonical repository artifacts, not a second source of truth.
 
 - Schema: `1.0.0`
-- Source tree: `sha256:1379b49b6e384b8302fae9a463d26233cc9b1566fa17213d71a5084d264260be`
+- Source tree: `sha256:03aeed433e8ef5604e488a3d0072088ffa2af869ce37c5aaae0aaa52f8865d3f`
 - Unresolved references: `0`
 
 | Artifact | Count |
 | --- | ---: |
-| Published skills | 18 |
+| Published skills | 22 |
 | Mechanism registry records | 28 |
 | Accepted-ledger events | 34 |
 | Rejected-ledger events | 1 |
 | Provenance-tracked claims | 43 |
-| Activation cases | 27 |
+| Activation cases | 31 |
 | Router prompts | 59 |
 | Adversarial scenarios | 7 |
 | Adversarial goldens | 7 |

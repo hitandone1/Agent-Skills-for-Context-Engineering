@@ -98,6 +98,17 @@ This collection integrates with itself—skills reference each other and build o
 ## References
 
 Internal skills in this collection:
+
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:8887fe37981bd6b1096cd44f759172a3cd9c05d353b99cc9ddba21e1307fccd1 -->
+
+- [Asset Production](skills/asset-production/SKILL.md) - Create and verify digital assets
+- [Research Synthesis](skills/research-synthesis/SKILL.md) - Investigate and synthesize evidence
+- [Publication Production](skills/publication-production/SKILL.md) - Prepare evidence-backed publications
+- [Application Delivery](skills/application-delivery/SKILL.md) - Build and verify applications
+
+<!-- /coderabbit-ai-generated:v1 -->
 - [context-fundamentals](skills/context-fundamentals/SKILL.md)
 - [context-degradation](skills/context-degradation/SKILL.md)
 - [context-compression](skills/context-compression/SKILL.md)

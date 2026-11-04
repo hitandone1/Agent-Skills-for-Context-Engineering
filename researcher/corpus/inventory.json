@@ -1,9 +1,21 @@
 {
   "artifacts": {
     "activation_cases": {
-      "count": 27,
+      "count": 31,
       "owner": "researcher/fixtures/activation-cases.jsonl",
       "records": [
+        {
+          "digest": "sha256:0bbef1f3fee6f1c6e3a1de4f60df867d21904a9f17262370832dca6480eed579",
+          "expected_primary_skill": "application-delivery",
+          "id": "activation-application-delivery",
+          "line": 31
+        },
+        {
+          "digest": "sha256:f599aa1d342c98aab0155c784137d6903ca5b33a16c9610110be1b59c3292b32",
+          "expected_primary_skill": "asset-production",
+          "id": "activation-asset-production",
+          "line": 28
+        },
         {
           "digest": "sha256:9e84b1140ddf77e60af3e2e236d5d5a62dd3ca4fd7ad59932e281ad466554db8",
           "expected_primary_skill": "bdi-mental-states",
@@ -123,6 +135,18 @@
           "expected_primary_skill": "project-development",
           "id": "activation-project-vs-harness",
           "line": 8
+        },
+        {
+          "digest": "sha256:a9a648bd73e98f7d113ea55b4d50b108df0a9394f5df592da6b92b87469cb003",
+          "expected_primary_skill": "publication-production",
+          "id": "activation-publication-production",
+          "line": 30
+        },
+        {
+          "digest": "sha256:fe98b885ddc64198a3f0b670ff72ca87f271813ea47f73421e6e88ec8e9d76e7",
+          "expected_primary_skill": "research-synthesis",
+          "id": "activation-research-synthesis",
+          "line": 29
         },
         {
           "digest": "sha256:ff490ff825efd9f91fea70e185d0bc808f61d294361a7705edc15d25fdcecdcc",
@@ -618,7 +642,7 @@
       ]
     },
     "corpus_index": {
-      "count": 18,
+      "count": 22,
       "owner": "researcher/corpus/index.json",
       "records": [
         {
@@ -639,6 +663,28 @@
             "pairwise-skill-revision"
           ],
           "path": "skills/advanced-evaluation/SKILL.md"
+        },
+        {
+          "activation_scenarios": [
+            "application implementation",
+            "end-to-end feature verification"
+          ],
+          "claim_ids": [],
+          "explicit_body_claim_ids": [],
+          "id": "application-delivery",
+          "mechanism_ids": [],
+          "path": "skills/application-delivery/SKILL.md"
+        },
+        {
+          "activation_scenarios": [
+            "visual asset production",
+            "export verification"
+          ],
+          "claim_ids": [],
+          "explicit_body_claim_ids": [],
+          "id": "asset-production",
+          "mechanism_ids": [],
+          "path": "skills/asset-production/SKILL.md"
         },
         {
           "activation_scenarios": [
@@ -925,6 +971,28 @@
         },
         {
           "activation_scenarios": [
+            "research paper drafting",
+            "publication preparation"
+          ],
+          "claim_ids": [],
+          "explicit_body_claim_ids": [],
+          "id": "publication-production",
+          "mechanism_ids": [],
+          "path": "skills/publication-production/SKILL.md"
+        },
+        {
+          "activation_scenarios": [
+            "literature review",
+            "evidence synthesis"
+          ],
+          "claim_ids": [],
+          "explicit_body_claim_ids": [],
+          "id": "research-synthesis",
+          "mechanism_ids": [],
+          "path": "skills/research-synthesis/SKILL.md"
+        },
+        {
+          "activation_scenarios": [
             "recursive self-improvement loops",
             "meta-harness search",
             "failure-driven harness self-edits",
@@ -1147,7 +1215,7 @@
           "version": "2.6.0"
         },
         {
-          "digest": "sha256:edce54caa04c3718fd210e0fbce225a6038bc5363af7b8961fef6e391a6e4c6f",
+          "digest": "sha256:9c7536f4b790d0882152197096823c38ac2be1402aeb37c53050f5f611732daa",
           "id": "collection-skill",
           "path": "SKILL.md",
           "version": "2.6.0"
@@ -1156,6 +1224,8 @@
       "skill_sets": {
         "marketplace": [
           "advanced-evaluation",
+          "application-delivery",
+          "asset-production",
           "bdi-mental-states",
           "context-compression",
           "context-degradation",
@@ -1170,12 +1240,16 @@
           "memory-systems",
           "multi-agent-patterns",
           "project-development",
+          "publication-production",
+          "research-synthesis",
           "self-improvement-loops",
           "self-managed-context",
           "tool-design"
         ],
         "published": [
           "advanced-evaluation",
+          "application-delivery",
+          "asset-production",
           "bdi-mental-states",
           "context-compression",
           "context-degradation",
@@ -1190,6 +1264,8 @@
           "memory-systems",
           "multi-agent-patterns",
           "project-development",
+          "publication-production",
+          "research-synthesis",
           "self-improvement-loops",
           "self-managed-context",
           "tool-design"
@@ -2293,13 +2369,23 @@
       ]
     },
     "skills": {
-      "count": 18,
+      "count": 22,
       "owner": "skills/*/SKILL.md",
       "records": [
         {
           "digest": "sha256:8b9e3d9de07a0505ae2b42df2e15dd75bab5f2486e336194481c558e0648ded0",
           "id": "advanced-evaluation",
           "path": "skills/advanced-evaluation/SKILL.md"
+        },
+        {
+          "digest": "sha256:900aec0330f72d7fb74d643164c5cd644cc5e8779be05f27ed884833f455fd52",
+          "id": "application-delivery",
+          "path": "skills/application-delivery/SKILL.md"
+        },
+        {
+          "digest": "sha256:ce84ee6d42f902c299db44f29d053ece73aec0a2c6c462f055b210e641e06c11",
+          "id": "asset-production",
+          "path": "skills/asset-production/SKILL.md"
         },
         {
           "digest": "sha256:2a68bf11815b166a508141c6ecb24a2007808e6d46557c0b111bb9b10b87cbe6",
@@ -2370,6 +2456,16 @@
           "digest": "sha256:acfeda3048cf6213be2d0c4699c1884914a1a044ca2707094483ca6423d17a11",
           "id": "project-development",
           "path": "skills/project-development/SKILL.md"
+        },
+        {
+          "digest": "sha256:473fd10eaaaadd9eb59d675b440ad3b273fd74416a8fdeb81c10ab46b17bd235",
+          "id": "publication-production",
+          "path": "skills/publication-production/SKILL.md"
+        },
+        {
+          "digest": "sha256:55129246794211946ec30be2fa7fcf25d2df826c97b55f53a7bc486614d8ecf0",
+          "id": "research-synthesis",
+          "path": "skills/research-synthesis/SKILL.md"
         },
         {
           "digest": "sha256:de088dd42e92de999da54c6d1a17bed7daf3404688888482735deaa4f482d846",
@@ -2493,6 +2589,8 @@
     "manifest_skill_sets": {
       "marketplace": [
         "advanced-evaluation",
+        "application-delivery",
+        "asset-production",
         "bdi-mental-states",
         "context-compression",
         "context-degradation",
@@ -2507,12 +2605,16 @@
         "memory-systems",
         "multi-agent-patterns",
         "project-development",
+        "publication-production",
+        "research-synthesis",
         "self-improvement-loops",
         "self-managed-context",
         "tool-design"
       ],
       "published": [
         "advanced-evaluation",
+        "application-delivery",
+        "asset-production",
         "bdi-mental-states",
         "context-compression",
         "context-degradation",
@@ -2527,6 +2629,8 @@
         "memory-systems",
         "multi-agent-patterns",
         "project-development",
+        "publication-production",
+        "research-synthesis",
         "self-improvement-loops",
         "self-managed-context",
         "tool-design"
@@ -2543,6 +2647,14 @@
       {
         "case_id": "activation-evaluation-vs-advanced-judge",
         "skill_id": "advanced-evaluation"
+      },
+      {
+        "case_id": "activation-application-delivery",
+        "skill_id": "application-delivery"
+      },
+      {
+        "case_id": "activation-asset-production",
+        "skill_id": "asset-production"
       },
       {
         "case_id": "activation-bdi-vs-memory",
@@ -2623,6 +2735,14 @@
       {
         "case_id": "activation-tool-vs-project-structured-output",
         "skill_id": "project-development"
+      },
+      {
+        "case_id": "activation-publication-production",
+        "skill_id": "publication-production"
+      },
+      {
+        "case_id": "activation-research-synthesis",
+        "skill_id": "research-synthesis"
       },
       {
         "case_id": "activation-self-improvement-evolutionary-search",
@@ -2997,17 +3117,17 @@
     ]
   },
   "repository_revision": {
-    "digest": "sha256:1379b49b6e384b8302fae9a463d26233cc9b1566fa17213d71a5084d264260be",
+    "digest": "sha256:03aeed433e8ef5604e488a3d0072088ffa2af869ce37c5aaae0aaa52f8865d3f",
     "git_commit_excluded_to_avoid_self_reference": true,
     "kind": "canonical_source_tree"
   },
   "schema_version": "1.0.0",
-  "source_tree_digest": "sha256:1379b49b6e384b8302fae9a463d26233cc9b1566fa17213d71a5084d264260be",
+  "source_tree_digest": "sha256:03aeed433e8ef5604e488a3d0072088ffa2af869ce37c5aaae0aaa52f8865d3f",
   "sources": [
     {
-      "digest": "sha256:f924467d535c67ddc43c747d6b3361469414ca8c5d15c2e8b406d4bbb7c7ca1e",
+      "digest": "sha256:ad4aee956f229ae487829021a38d6ef30da7f443218c54f627f6cd12837db9ad",
       "path": ".claude-plugin/marketplace.json",
-      "size_bytes": 2014
+      "size_bytes": 2174
     },
     {
       "digest": "sha256:e9a029bd6f3e8c16a2e55c536bf1ba4a0a9fb3ecd84da41056b51465f05c8018",
@@ -3015,9 +3135,9 @@
       "size_bytes": 829
     },
     {
-      "digest": "sha256:edce54caa04c3718fd210e0fbce225a6038bc5363af7b8961fef6e391a6e4c6f",
+      "digest": "sha256:9c7536f4b790d0882152197096823c38ac2be1402aeb37c53050f5f611732daa",
       "path": "SKILL.md",
-      "size_bytes": 11210
+      "size_bytes": 11784
     },
     {
       "digest": "sha256:e80dc5fe7391c3a5745c574814a1502d24ba9acea91fcbb5dc7ec7d38eb43545",
@@ -3145,9 +3265,9 @@
       "size_bytes": 26455
     },
     {
-      "digest": "sha256:ab90a17b81665d53649373772bf91529002e5b92f5cadd3fe4308b57733fece7",
+      "digest": "sha256:33b6246c1441481a17d5f61c5622eb12087d6954c92af3c9b86dc5d342fc6c3a",
       "path": "researcher/corpus/index.json",
-      "size_bytes": 8790
+      "size_bytes": 9594
     },
     {
       "digest": "sha256:a8a2d73c1d22f496702737d572dedadfc63298fd4e658d9a5574d58690fba0e5",
@@ -3170,9 +3290,9 @@
       "size_bytes": 7258
     },
     {
-      "digest": "sha256:b45c63d58514e1c6f7fc52fe28e7837e14dceec81a5d976225f31f3b820fa83a",
+      "digest": "sha256:54438a783c2b413b40957d2f18faac1394beb127423919e55174f975a3534c3c",
       "path": "researcher/fixtures/activation-cases.jsonl",
-      "size_bytes": 14447
+      "size_bytes": 15641
     },
     {
       "digest": "sha256:6a0ee2e312f7798802bbc159120c8b621edc3cb0b52d17c9f337a8f61bfbf33b",
@@ -3560,6 +3680,16 @@
       "size_bytes": 16990
     },
     {
+      "digest": "sha256:900aec0330f72d7fb74d643164c5cd644cc5e8779be05f27ed884833f455fd52",
+      "path": "skills/application-delivery/SKILL.md",
+      "size_bytes": 3095
+    },
+    {
+      "digest": "sha256:ce84ee6d42f902c299db44f29d053ece73aec0a2c6c462f055b210e641e06c11",
+      "path": "skills/asset-production/SKILL.md",
+      "size_bytes": 3084
+    },
+    {
       "digest": "sha256:2a68bf11815b166a508141c6ecb24a2007808e6d46557c0b111bb9b10b87cbe6",
       "path": "skills/bdi-mental-states/SKILL.md",
       "size_bytes": 17738
@@ -3628,6 +3758,16 @@
       "digest": "sha256:acfeda3048cf6213be2d0c4699c1884914a1a044ca2707094483ca6423d17a11",
       "path": "skills/project-development/SKILL.md",
       "size_bytes": 18960
+    },
+    {
+      "digest": "sha256:473fd10eaaaadd9eb59d675b440ad3b273fd74416a8fdeb81c10ab46b17bd235",
+      "path": "skills/publication-production/SKILL.md",
+      "size_bytes": 3145
+    },
+    {
+      "digest": "sha256:55129246794211946ec30be2fa7fcf25d2df826c97b55f53a7bc486614d8ecf0",
+      "path": "skills/research-synthesis/SKILL.md",
+      "size_bytes": 3248
     },
     {
       "digest": "sha256:de088dd42e92de999da54c6d1a17bed7daf3404688888482735deaa4f482d846",
