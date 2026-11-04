@@ -28,7 +28,20 @@ The deliverable is a set of usable files, not just an attractive preview. A brie
 3. Make a composition at its intended size. Check legibility, contrast, cropping, alignment, transparency, and accessibility at actual display size. Inspect rendered exports, not only source files.
 4. Deliver requested formats and editable source where feasible. Record dimensions, format, and any unresolved usage rights or generation limitations. Do not assert that an asset is licensed without evidence.
 
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:0361b50ab3bc23f91630a1fc6cbbbf7c27023cd9710aa863f6850076bb29b115 -->
+
+## Production Decisions
+
+- **Select a master:** Use vector or native editable source for geometry, typography, and scalable marks; use raster when photographic detail or painting is the actual goal. A flattened export cannot stand in for an editable master when the user needs revisions.
+- **Control exports:** Work from one master, record the target pixel dimensions or physical dimensions and resolution, and export variants independently. Inspect the resulting file metadata, transparency, and color on representative backgrounds. Avoid silently changing aspect ratio or cropping meaningful content.
+- **Verify fidelity:** Compare generated text and visual details against the brief. Replace unreliable generated lettering with editable text when exact wording matters. For data graphics, reconcile labels, units, and plotted values with the source data and preserve the transformation used.
+- **Package deliberately:** Name files by role and variant, include the editable source where available, and identify any source assets and unresolved reuse rights. For unsupported formats, provide the closest usable source and state the limitation.
+
 ## Examples
+
+<!-- /coderabbit-ai-generated:v1 -->
 
 For an app icon, inspect the existing icon system, create a scalable master, export the requested sizes, and inspect the smallest rendering. For a report chart, derive values from the supplied data, label units and uncertainty, and verify the export against the data.
 

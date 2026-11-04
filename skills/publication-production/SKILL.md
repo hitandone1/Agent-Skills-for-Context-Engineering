@@ -29,7 +29,20 @@ Publication readiness requires a coherent argument, traceable evidence, and a re
 4. Reconcile figures and tables with source data and text; check captions, numbering, links, bibliography, and accessibility. Render the requested format and inspect the resulting file for layout errors.
 5. Deliver the editable source and requested exports where possible, with unresolved evidence gaps and checks performed. Submission, publication, or contacting others requires the user's authorization.
 
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:a4380ce2637eabb6e750d12aa583b2a822310f219098f8fd836eaad96cf724dd -->
+
+## Evidence-to-Manuscript Checks
+
+- **Trace claims:** Maintain a working map from each substantive claim to an accessed source or analysis output, its location, and any qualification. If a source is inaccessible or a result is missing, leave an explicit placeholder rather than inventing supporting detail.
+- **Reconcile the study:** For empirical papers, align the abstract, methods, results, tables, and figures on sample, endpoints, units, exclusions, and uncertainty. Label exploratory analysis, missing data, and deviations from a supplied protocol. Never imply an experiment or review was conducted when it was not.
+- **Build the artifact:** Preserve the requested editable format and bibliography source. Compile or export, inspect the resulting document including references and figure placement, and fix broken cross-references or clipped content. Report any unchecked venue requirements or unresolved citations alongside the draft.
+- **Keep authorship accountable:** Distinguish a ready-to-review manuscript from submission; external submission or communications require the applicable authorization.
+
 ## Examples
+
+<!-- /coderabbit-ai-generated:v1 -->
 
 For a paper based on incomplete experiments, write the supported methods and clearly mark results as pending. For a supplied article, preserve its claims while checking citations and creating an accessible final export.
 

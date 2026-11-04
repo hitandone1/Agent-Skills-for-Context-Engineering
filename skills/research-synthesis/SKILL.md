@@ -29,7 +29,20 @@ A research result separates observations, inference, and uncertainty. A citation
 4. Compare conflicting findings, account for study quality and applicability, and distinguish correlation from causal evidence. Do not infer consensus from a few search hits.
 5. Produce a synthesis with citations close to claims, explicit evidence gaps, and a reproducible search trail appropriate to the assignment. If access is limited, label it and avoid presenting unseen content as verified.
 
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:aa85986c45cb48636a70b975fd267c0118ebcf55419c616f519ed6270ad84500 -->
+
+## Evidence Workflow
+
+- **Set a search boundary:** Record the question, intended population or context, relevant dates, sources searched, exact queries, and inclusion or exclusion criteria when a repeatable review is requested. Revise the search if alternate terminology or contradictory evidence exposes a gap; state practical limits instead of claiming exhaustive coverage.
+- **Create a claim ledger:** For each important finding record the source and version, location, study design, sample or scope, comparator, outcome and units, limitations, and whether the claim is directly reported or inferred. Separate multiple reports of the same underlying study to avoid counting them as independent evidence.
+- **Weigh disagreement:** Check whether findings differ in population, intervention, time period, outcome, or method before synthesizing them. Treat absent evidence as unknown, not evidence of absence. Preserve uncertainty and do not pool incompatible results without a defensible method.
+- **Close with an evidence audit:** Trace consequential conclusions to the source passages or data actually examined, check dates and corrections, and report gaps, access limits, and the point at which searching stopped. If a conclusion cannot be verified, mark it as unresolved.
+
 ## Examples
+
+<!-- /coderabbit-ai-generated:v1 -->
 
 For a literature review, document the database, queries, date, screening criteria, and a table mapping each included study to its findings and limitations. For a current policy question, check the effective date and jurisdiction in the authoritative text.
 

@@ -29,7 +29,20 @@ A working application is an end-to-end path through interface, state, and depend
 4. Run the narrowest meaningful tests and required project checks. Start the app when feasible and exercise the affected flow, including failure states. For visual interfaces inspect the rendered page at appropriate viewport sizes.
 5. Report the changed behavior, checks and remaining gaps. Do not deploy, publish, or modify external systems without authorization.
 
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:8bdbccf3f9014d946e8e86ae23c6959478c99ead783f33d7f8bb254719d9fa55 -->
+
+## Execution and Verification Decisions
+
+- **Frame the slice:** Identify the entry point, inputs, output, persisted state, and observable completion for the requested journey. Trace existing callers and any migration or compatibility requirement before changing interfaces.
+- **Work through dependencies:** Run against the real local stack when feasible. If a service is unavailable, inspect supported configuration and use a representative local substitute only if it covers the operation. Keep the limitation visible; a passing stub does not prove integration works.
+- **Test the boundaries:** Exercise success, invalid input, an empty result, and a relevant failure or retry path. For stateful work, verify that a reload or second request sees the expected state and that duplicate actions do not silently corrupt it. For UI changes check keyboard access, accessible names, and the affected layout at practical viewport sizes.
+- **Close the loop:** Compare observed results with acceptance conditions. Report exact checks and the environment used, plus untested paths and reproducible steps for remaining blockers.
+
 ## Examples
+
+<!-- /coderabbit-ai-generated:v1 -->
 
 For a search feature, verify input, loading, results, empty and failure states with representative data. For an API change, exercise callers and invalid input as well as the successful response.
 
