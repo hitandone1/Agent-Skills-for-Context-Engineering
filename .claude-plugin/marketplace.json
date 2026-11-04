@@ -32,7 +32,11 @@
         "./skills/project-development",
         "./skills/bdi-mental-states",
         "./skills/latent-briefing",
-        "./skills/self-improvement-loops"
+        "./skills/self-improvement-loops",
+        "./skills/asset-production",
+        "./skills/research-synthesis",
+        "./skills/publication-production",
+        "./skills/application-delivery"
       ]
     }
   ]

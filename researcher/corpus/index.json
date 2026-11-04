@@ -4,6 +4,10 @@
   "updated_at": "2026-10-11",
   "purpose": "Canonical machine-readable map for skills, mechanisms, claims, and activation scenarios.",
   "skills": [
+    {"name": "application-delivery", "path": "skills/application-delivery/SKILL.md", "activation_scenarios": ["application implementation", "end-to-end feature verification"], "mechanism_ids": [], "claim_ids": []},
+    {"name": "asset-production", "path": "skills/asset-production/SKILL.md", "activation_scenarios": ["visual asset production", "export verification"], "mechanism_ids": [], "claim_ids": []},
+    {"name": "publication-production", "path": "skills/publication-production/SKILL.md", "activation_scenarios": ["research paper drafting", "publication preparation"], "mechanism_ids": [], "claim_ids": []},
+    {"name": "research-synthesis", "path": "skills/research-synthesis/SKILL.md", "activation_scenarios": ["literature review", "evidence synthesis"], "mechanism_ids": [], "claim_ids": []},
     {
       "name": "advanced-evaluation",
       "path": "skills/advanced-evaluation/SKILL.md",

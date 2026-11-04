@@ -20,6 +20,21 @@ This repository is cited in academic research as foundational work on static ski
 
 ## Skills Overview
 
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:7add5d38fc50a16f6ea6b5a7b189b34fa8cce99c1e5d6336dbcff3a0e15f7796 -->
+
+### Creation and Delivery Skills
+
+| Skill | Description |
+|-------|-------------|
+| [asset-production](skills/asset-production/) | Create and verify reusable digital assets |
+| [research-synthesis](skills/research-synthesis/) | Investigate questions with traceable evidence |
+| [publication-production](skills/publication-production/) | Prepare evidence-backed papers and publications |
+| [application-delivery](skills/application-delivery/) | Build and verify working applications |
+
+<!-- /coderabbit-ai-generated:v1 -->
+
 ### Foundational Skills
 
 These skills establish the foundational understanding required for all subsequent context engineering work.
@@ -121,6 +136,19 @@ This installs all published skills in a single plugin. Skills are activated auto
 
 ### Skill Activation Scenarios
 
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:35dd9c25d963485b62e3fb9628365bde6c27f353ca74918a358e1d401c800538 -->
+
+| Skill | Activate When |
+|-------|---------------|
+| `asset-production` | Creating and verifying digital assets and exports |
+| `research-synthesis` | Investigating a question and synthesizing traceable evidence |
+| `publication-production` | Drafting and preparing papers or publications |
+| `application-delivery` | Implementing and verifying application workflows |
+
+<!-- /coderabbit-ai-generated:v1 -->
+
 | Skill | Activate When |
 |-------|---------------|
 | `context-fundamentals` | Establishing context-window mental models, planning agent architecture, or explaining how context components affect model behavior |
@@ -183,6 +211,14 @@ cp -R skills/context-fundamentals .agents/skills/
 ```
 
 Do not flatten `SKILL.md` into a single file at `.claude/skills/context-fundamentals.md`. That breaks relative `references/` paths and violates the Agent Skills directory spec used by Cursor, Claude Code, and Codex.
+
+<!-- coderabbit-ai-generated:v1 -->
+
+<!-- coderabbit-ai-generated-section:v1:f5388bb8a582fe0526020f319e005e0836eb8630500c1241a72065321e53c8cf -->
+
+Additional skills: `asset-production`, `research-synthesis`, `publication-production`, `application-delivery`
+
+<!-- /coderabbit-ai-generated:v1 -->
 
 Available skills: `context-fundamentals`, `context-degradation`, `context-compression`, `context-optimization`, `self-managed-context`, `latent-briefing`, `multi-agent-patterns`, `long-horizon-prompting`, `memory-systems`, `tool-design`, `filesystem-context`, `hosted-agents`, `evaluation`, `advanced-evaluation`, `harness-engineering`, `self-improvement-loops`, `project-development`, `bdi-mental-states`
 
