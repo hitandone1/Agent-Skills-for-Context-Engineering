@@ -1,6 +1,6 @@
 ---
 name: application-delivery
-description: "Build or extend a working application from requirements through implementation and verification. Use for application delivery rather than agent architecture guidance alone."
+description: "Builds or extends a working application from requirements through implementation and verification. Applies to application delivery rather than agent architecture guidance alone."
 ---
 <!-- coderabbit-ai-generated:v1 -->
 

@@ -1,6 +1,6 @@
 ---
 name: research-synthesis
-description: "Research a question using traceable sources and synthesize evidence, uncertainty, and reproducible search decisions. Use for investigations and literature reviews."
+description: "Researches a question using traceable sources and synthesizes evidence, uncertainty, and reproducible search decisions. Applies to investigations and literature reviews."
 ---
 <!-- coderabbit-ai-generated:v1 -->
 

@@ -1,6 +1,6 @@
 ---
 name: publication-production
-description: "Draft and prepare research papers or publications from supplied or verified evidence, with traceable citations and submission-ready checks."
+description: "Drafts and prepares research papers or publications from supplied or verified evidence, with traceable citations and submission-ready checks."
 ---
 <!-- coderabbit-ai-generated:v1 -->
 

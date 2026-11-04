@@ -2378,12 +2378,12 @@
           "path": "skills/advanced-evaluation/SKILL.md"
         },
         {
-          "digest": "sha256:900aec0330f72d7fb74d643164c5cd644cc5e8779be05f27ed884833f455fd52",
+          "digest": "sha256:dcb4f3758fb882bfe3ad3d59a7a9a59afc976c97c8377c90c410174bda4f266c",
           "id": "application-delivery",
           "path": "skills/application-delivery/SKILL.md"
         },
         {
-          "digest": "sha256:ce84ee6d42f902c299db44f29d053ece73aec0a2c6c462f055b210e641e06c11",
+          "digest": "sha256:a4269bbee579f9163219609998f207a6349abc9b131998a8c93cd2ec662ca56c",
           "id": "asset-production",
           "path": "skills/asset-production/SKILL.md"
         },
@@ -2458,12 +2458,12 @@
           "path": "skills/project-development/SKILL.md"
         },
         {
-          "digest": "sha256:473fd10eaaaadd9eb59d675b440ad3b273fd74416a8fdeb81c10ab46b17bd235",
+          "digest": "sha256:b3823a98d72a3e3d2dde13fb680bf3fa869f63bd2104ae1adbc6e9ad75a11a75",
           "id": "publication-production",
           "path": "skills/publication-production/SKILL.md"
         },
         {
-          "digest": "sha256:55129246794211946ec30be2fa7fcf25d2df826c97b55f53a7bc486614d8ecf0",
+          "digest": "sha256:80b177b7e5bf6d4824059dba10b2b0b8fd43605b7d1e7e7c2510bc423ec4b9dd",
           "id": "research-synthesis",
           "path": "skills/research-synthesis/SKILL.md"
         },
@@ -3117,12 +3117,12 @@
     ]
   },
   "repository_revision": {
-    "digest": "sha256:03aeed433e8ef5604e488a3d0072088ffa2af869ce37c5aaae0aaa52f8865d3f",
+    "digest": "sha256:942230e700a15f0f2e9d77a9d3c61e6c716703fcb7afe4e9f2997041ae0c0cc3",
     "git_commit_excluded_to_avoid_self_reference": true,
     "kind": "canonical_source_tree"
   },
   "schema_version": "1.0.0",
-  "source_tree_digest": "sha256:03aeed433e8ef5604e488a3d0072088ffa2af869ce37c5aaae0aaa52f8865d3f",
+  "source_tree_digest": "sha256:942230e700a15f0f2e9d77a9d3c61e6c716703fcb7afe4e9f2997041ae0c0cc3",
   "sources": [
     {
       "digest": "sha256:ad4aee956f229ae487829021a38d6ef30da7f443218c54f627f6cd12837db9ad",
@@ -3680,14 +3680,14 @@
       "size_bytes": 16990
     },
     {
-      "digest": "sha256:900aec0330f72d7fb74d643164c5cd644cc5e8779be05f27ed884833f455fd52",
+      "digest": "sha256:dcb4f3758fb882bfe3ad3d59a7a9a59afc976c97c8377c90c410174bda4f266c",
       "path": "skills/application-delivery/SKILL.md",
-      "size_bytes": 3095
+      "size_bytes": 3100
     },
     {
-      "digest": "sha256:ce84ee6d42f902c299db44f29d053ece73aec0a2c6c462f055b210e641e06c11",
+      "digest": "sha256:a4269bbee579f9163219609998f207a6349abc9b131998a8c93cd2ec662ca56c",
       "path": "skills/asset-production/SKILL.md",
-      "size_bytes": 3084
+      "size_bytes": 3088
     },
     {
       "digest": "sha256:2a68bf11815b166a508141c6ecb24a2007808e6d46557c0b111bb9b10b87cbe6",
@@ -3760,14 +3760,14 @@
       "size_bytes": 18960
     },
     {
-      "digest": "sha256:473fd10eaaaadd9eb59d675b440ad3b273fd74416a8fdeb81c10ab46b17bd235",
+      "digest": "sha256:b3823a98d72a3e3d2dde13fb680bf3fa869f63bd2104ae1adbc6e9ad75a11a75",
       "path": "skills/publication-production/SKILL.md",
-      "size_bytes": 3145
+      "size_bytes": 3147
     },
     {
-      "digest": "sha256:55129246794211946ec30be2fa7fcf25d2df826c97b55f53a7bc486614d8ecf0",
+      "digest": "sha256:80b177b7e5bf6d4824059dba10b2b0b8fd43605b7d1e7e7c2510bc423ec4b9dd",
       "path": "skills/research-synthesis/SKILL.md",
-      "size_bytes": 3248
+      "size_bytes": 3254
     },
     {
       "digest": "sha256:de088dd42e92de999da54c6d1a17bed7daf3404688888482735deaa4f482d846",

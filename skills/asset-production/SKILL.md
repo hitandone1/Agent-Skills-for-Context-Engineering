@@ -1,6 +1,6 @@
 ---
 name: asset-production
-description: "Produce visual or digital assets from a creative brief, including editable source, exports, and quality checks. Use for asset production rather than application implementation."
+description: "Produces visual or digital assets from a creative brief, including editable source, exports, and quality checks. Applies to asset production rather than application implementation."
 ---
 <!-- coderabbit-ai-generated:v1 -->
 
